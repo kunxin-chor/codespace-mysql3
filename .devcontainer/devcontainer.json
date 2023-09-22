@@ -1,0 +1,13 @@
+{
+  "name": "Your Dev Container Name",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    // List of VS Code extensions to be installed in the codespace
+  ],
+  "forwardPorts": [3306]
+}
